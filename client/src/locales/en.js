@@ -6,6 +6,7 @@ export default {
     orders: 'Orders',
     finance: 'Finance',
     demandForecast: 'Demand Forecast',
+    restocking: 'Restocking',
     companyName: 'Catalyst Components',
     subtitle: 'Inventory Management System'
   },
@@ -106,6 +107,9 @@ export default {
     title: 'Orders',
     description: 'View and manage customer orders',
     allOrders: 'All Orders',
+    submittedOrders: 'Submitted Restocking Orders',
+    submittedDate: 'Submitted',
+    leadTimeDays: '14-day lead time',
     totalOrders: 'Total Orders',
     totalRevenue: 'Total Revenue',
     avgOrderValue: 'Avg Order Value',
@@ -164,6 +168,33 @@ export default {
       vendor: 'Vendor',
       date: 'Date',
       amount: 'Amount'
+    }
+  },
+
+  // Restocking
+  restocking: {
+    title: 'Restocking',
+    description: 'Set a budget and submit a recommended restocking order based on demand forecasts',
+    budgetLabel: 'Available Budget',
+    totalCost: 'Total Cost',
+    remainingBudget: 'Remaining',
+    itemsIncluded: 'Items Included',
+    recommendations: 'Recommended Items',
+    placeOrder: 'Place Order',
+    submitting: 'Submitting...',
+    submittedSuccess: 'Restocking order submitted. View it in the Orders tab.',
+    submitError: 'Failed to submit order. Try again.',
+    noRecommendations: 'No items fit within this budget. Increase the budget to see recommendations.',
+    excludedHint: 'Exceeds remaining budget',
+    table: {
+      sku: 'SKU',
+      itemName: 'Item Name',
+      trend: 'Trend',
+      gap: 'Gap',
+      unitCost: 'Unit Cost',
+      recommendedQty: 'Recommended Qty',
+      lineCost: 'Line Cost',
+      included: 'Included'
     }
   },
 
